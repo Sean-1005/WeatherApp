@@ -11,6 +11,8 @@ import {
 
 export default class SevenDaysWeatherList extends React.Component{
 
+    location = this.props.route.params.location
+
     renderItem = ({ item }) => {
         let date = new Date(item.dt * 1000)
         let formattedDate = date.getFullYear()+'-'+(date.getMonth()+1)+'-'+date.getDate()
@@ -34,6 +36,7 @@ export default class SevenDaysWeatherList extends React.Component{
                       source={{uri: 'http://openweathermap.org/img/wn/'+item.weather[0].icon+'@2x.png'}}
                     />
                     <Text category={"h4"} style={styles.text}>{item.weather[0].description}</Text>
+                    <Text category={"h6"} style={styles.text}>{this.location}</Text>
                   </View>
                   <View style={styles.row}>
                     <FontAwesome5 name="temperature-high" size={24} color="black" />

@@ -15,7 +15,8 @@ export default class WeatherScreen extends React.Component{
         humidity: undefined,
         daily: [],
         error: undefined,
-        isShow: false
+        isShow: false,
+        label: undefined
     }
 
     async componentDidMount(){

@@ -8,7 +8,8 @@ export default class DailyWeather extends React.Component{
 
   onSubmit = () => {
     this.props.navigation.navigate('FollowingWeather',{
-      daily: this.props.state.daily
+      daily: this.props.state.daily,
+      location: this.props.state.label
     });
   }
 
@@ -22,6 +23,7 @@ export default class DailyWeather extends React.Component{
               />
               <Text style={styles.text} category={"h1"}>{this.props.state.current_temp}˚C</Text>
               <Text style={styles.text} category={"h3"} >{this.props.state.weather_desc}</Text>
+              <Text category={"h5"} style={styles.text}>{this.props.state.label}</Text>
               <Text category={"h5"} style={styles.text}>{this.props.state.date}</Text>
           </View>
           <View style={styles.bodyContainer}>

@@ -69,7 +69,6 @@ const getLatLon = async (address) => {
     try {
         let res = await fetch(url, data);
         const result = await res.json();
-        console.log(result)
         return result;
     }catch(e){
         console.log(e);

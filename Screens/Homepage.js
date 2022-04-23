@@ -29,7 +29,8 @@ export default class Homepage extends React.Component {
         daily: [],
         isShow: true,
         icon:undefined,
-        error: undefined
+        error: undefined,
+        label: undefined,
     }
 
     onChangeText = (key, value) => {
@@ -97,6 +98,7 @@ export default class Homepage extends React.Component {
                     daily: result2.daily,
                     icon: result2.current.weather[0].icon,
                     isShow: true,
+                    label: result1.data[0].label
                 });
                 this.props.navigation.navigate('DailyWeather',{
                     lat: result1.lat,
