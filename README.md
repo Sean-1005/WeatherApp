@@ -8,7 +8,7 @@ There are three pages for this weather app, homepage (searching page), current w
 
 ### Homepage
 
-![alt text](https://github.com/Sean-1005/WeatherApp/blob/main/Screenshots/1_Homepage.png)
+<img src = "https://github.com/Sean-1005/WeatherApp/blob/main/Screenshots/1_Homepage.png" alt="drawing" width="250">
 
 User can search the weather info by city or zip code. 
 
@@ -23,7 +23,7 @@ If there are any neccessary fields missing, an alert will show.
 
 ### Current Weather
 
-![alt text](https://github.com/Sean-1005/WeatherApp/blob/main/Screenshots/2_CurrentWeather.png)
+<img src = "https://github.com/Sean-1005/WeatherApp/blob/main/Screenshots/2_CurrentWeather.png" alt="drawing" width="250">
 
 This page shows current weather data, (there is no `Precipitation` data for current weather)
 - Weather description (ex. rain, snow)
@@ -37,7 +37,7 @@ By clicking the `Next 7 days` button, users are able to see the weather for the 
 
 ### Next 7-day weather
 
-![alt text](https://github.com/Sean-1005/WeatherApp/blob/main/Screenshots/3_Next7Days.png)
+<img src = "https://github.com/Sean-1005/WeatherApp/blob/main/Screenshots/3_Next7Days.png" alt="drawing" width="250">
 
 This is an example page for the weather of the next 7 days. 
 
