@@ -1,0 +1,4 @@
+const API_KEY = "b483c8ed20b184bee86438e03ea12fc7";
+const API_KEY_LOCATION = "cefa1a78ad0e557404bab9ad526d5cd4"
+
+export {API_KEY, API_KEY_LOCATION}
