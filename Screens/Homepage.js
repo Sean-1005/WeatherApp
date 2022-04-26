@@ -17,6 +17,8 @@ export default class Homepage extends React.Component {
         city: "",
         state:"",
         country:"",
+        country_city:undefined,
+        country_zip: undefined,
         postcode: "",
         date: undefined,
         weather_desc: "",
@@ -199,7 +201,6 @@ const styles = StyleSheet.create({
         margin: 5,
     },
     text: {
-        fontSize: 15,
         fontFamily:'sans-serif-medium',
         margin: 0,
         color: "grey"
@@ -216,11 +217,11 @@ const styles = StyleSheet.create({
         padding: 10,
         width: 330,
         marginLeft: 20,
-        margin: 20,
+        marginTop: 20,
         borderRadius: 10,
     },
     divider:{
         margin:5,
         color: "black"
     }
-})
+})  
