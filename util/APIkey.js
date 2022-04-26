@@ -11,6 +11,6 @@ const API_KEY = "YOUR API KEY for OpenWeather";
  * 1. Go to the website, create / login to your account
  * 2. Go to the your dashboard, and copy and repalce the API_KEY_LOCATION with your API
  */
-const API_KEY_LOCATION = "cefa1a78ad0e557404bab9ad526d5cd4"
+const API_KEY_LOCATION = "YOUR API KEY for positionstack"
 
 export {API_KEY, API_KEY_LOCATION}
