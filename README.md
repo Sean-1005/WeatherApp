@@ -47,8 +47,14 @@ This is an example page for the weather of the next 7 days.
 2. Open Andriod Studio, click the `AVD Manager` on the top right of the tool bar, create a virtual device or start an existed one
 3. Clone this repo to your local (`git clone https://github.com/Sean-1005/WeatherApp.git`)
 4. Navigate into the WeatherApp directory `cd ./WeatherApp`
-5. Run `npm install` to install all neccessary packages
-6. Run `expo start` to start the app 
-7. Connect to your Andriod device/ simulator
+5. Go to the `./WeatherApp/util/APIkey.js`, replace the two API key with your own API keys
+6. Run `npm install` to install all neccessary packages
+7. Run `expo start` to start the app 
+8. Connect to your Andriod device/ simulator
+
+# Referrence
+
+- OpenWeather API: https://openweathermap.org/api/one-call-api
+- Position Stack API: https://positionstack.com/
 
  
